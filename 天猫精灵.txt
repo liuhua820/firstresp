@@ -1,0 +1,8 @@
+（1）AliGenie在开发商开放平台或者其他第三方平台注册一个应用，获取到相应的Client id 和Client secret
+（2）AliGenie 应用向开发商OAuth2.0服务发起一个授权请求
+（3）开发商OAuth2.0服务向用户展示一个授权页面，用户可进行登陆授权
+（4）用户授权AliGenie客户端应用后，进行回跳到AliGenie 的回调地址上并带上code相关参数
+（5）AilGenie回调地址上根据code会去合作方Oauth 的服务上换取 access_token
+（6）通过access_token，天猫精灵设备控制时通过该access_token进行访问合作方的服务
+
+
