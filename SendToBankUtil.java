@@ -53,7 +53,8 @@ public class SendToBankUtil {
             }
             in.close();
             resultStr = buffer.toString();
-
+			
+			System.out.println("---- end ----");
 
         } catch ( Exception e ) {
             throw new RuntimeException(e);
