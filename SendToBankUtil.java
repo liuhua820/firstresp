@@ -16,6 +16,8 @@ public class SendToBankUtil {
 
         try {
 
+
+			System.out.print("----> Begin: ");
             URL url= new URL(serviceUrl);
             con = (HttpURLConnection)url.openConnection();
             //if(serviceUrl.startsWith("https")){
